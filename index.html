@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REVOLUTION - Comunidad de Trading</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>
+        <div class="logo">
+            <img src="imagen revo.jpg" alt="REVOLUTION Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#about">Servicios</a></li>
+                <li><a href="#services">Sobre Nosotros</a></li>
+                <li><a href="#testimonials">Testimonios</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+            <a href="#register" class="btn-cta">Únete Ahora</a>
+        </nav>
+    </header>
+
+    <!-- Sección de Bienvenida -->
+    <section id="home" class="hero">
+        <div class="hero-text">
+            <h1>Únete a REVOLUTION, la Comunidad de Traders que cambia vidas</h1>
+            <p>Impulsa tu éxito financiero y domina el arte del trading con nuestra comunidad y el brocker Libertex</p>
+            <a href="#register" class="btn-cta">Regístrate Ahora</a>
+        </div>
+    </section>
+
+    <!-- Sección ¿Qué es el Trading? -->
+    <section id="about" class="info-section">
+        <div class="info-image">
+            <img src="Aprende_trading.jpg" alt="Trading">
+        </div>
+        <div class="info-text">
+            <h2>¿Qué es el Trading?</h2>
+            <p>El trading es la compra y venta de activos financieros como acciones, criptomonedas, y pares de divisas en el mercado. Es una forma de inversión que te permite aprovechar la volatilidad del mercado para obtener ganancias.</p>
+            <ul>
+                <li>Flexibilidad horaria.</li>
+                <li>Potencial de altos retornos.</li>
+                <li>Acceso global a mercados financieros.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Sección ¿Por qué Libertex? -->
+    <section id="services" class="info-section">
+        <div class="info-text">
+            <h2>Libertex: Tu Brocker de Confianza</h2>
+            <p>Libertex es un brocker líder en el mercado que te ofrece una plataforma fácil de usar, y acceso a una amplia gama de activos financieros.</p>
+            <ul>
+                <li>Spreads bajos y bajas comisiones.</li>
+                <li>Ejecución rápida de operaciones.</li>
+                <li>Educación financiera gratuita.</li>
+                <li>Soporte al cliente 24/7.</li>
+            </ul>
+        </div>
+        <div class="info-image">
+            <img src="libertex imagen.jpg" alt="Libertex Platform">
+        </div>
+    </section>
+
+    <!-- Sección Beneficios de Unirte a REVOLUTION -->
+    <section id="benefits" class="benefits-section">
+        <h2>¿Por qué Ser Miembro de REVOLUTION?</h2>
+        <ul>
+            <li><strong>Comunidad Activa:</strong> Accede a una comunidad de traders experimentados que comparten análisis, estrategias y señales de trading.</li>
+            <li><strong>Educación Continua:</strong> Participa en webinars exclusivos, cursos y talleres diseñados para mejorar tus habilidades en trading.</li>
+            <li><strong>Soporte Personalizado:</strong> Recibe asesoramiento y orientación de expertos en trading para maximizar tu éxito.</li>
+            <li><strong>Networking:</strong> Conéctate con traders de todo el mundo y expande tus oportunidades de negocio.</li>
+        </ul>
+    </section>
+
+    <!-- Sección de Registro -->
+    <section id="register" class="register-section">
+        <h2>Únete a REVOLUTION</h2>
+        <form action="submit_registration.php" method="POST">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido" required>
+            
+            <label for="telefono">Número de Celular:</label>
+            <input type="tel" id="telefono" name="telefono" required>
+            
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="experiencia">¿Tienes experiencia en trading?</label>
+            <textarea id="experiencia" name="experiencia" rows="3" required></textarea>
+            
+            <label for="conocimientos">¿Cuáles son tus conocimientos sobre el trading?</label>
+            <textarea id="conocimientos" name="conocimientos" rows="3" required></textarea>
+            
+            <label for="capital">¿Cuentas con el capital para fondear tu cuenta? ¿Cuánto?</label>
+            <textarea id="capital" name="capital" rows="3" required></textarea>
+            
+            <label for="comunidad">¿Formaste parte de alguna comunidad de inversores o traders?</label>
+            <textarea id="comunidad" name="comunidad" rows="3" required></textarea>
+            
+            <button type="submit">Enviar Registro</button>
+        </form>
+        <p>Nos comprometemos a proteger tu privacidad. Nunca compartiremos tus datos sin tu consentimiento.</p>
+    </section>
+
+    <!-- Sección de Testimonios -->
+    <section id="testimonials" class="testimonials-section">
+        <h2>Lo Que Dicen Nuestros Miembros</h2>
+        <div class="testimonial-carousel">
+            <div class="testimonial">
+                <p>"REVOLUTION me ha ayudado a mejorar mis habilidades de trading y ahora soy más rentable que nunca."</p>
+                <span>- Juan Pérez</span>
+            </div>
+            <div class="testimonial">
+                <p>"Gracias a Libertex y a la comunidad REVOLUTION, he podido operar con confianza y seguridad."</p>
+                <span>- María López</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pie de Página -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-contact">
+                <h3>Contacto</h3>
+                <p>Email: revolutioncomunityy@gmail.com</p>
+                <p>Teléfono: +123 456 7890</p>
+            </div>
+            <div class="footer-links">
+                <a href="#">Términos y Condiciones</a>
+                <a href="#">Política de Privacidad</a>
+                <a href="#">Preguntas Frecuentes</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2024 REVOLUTION. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html> thank_you.html
